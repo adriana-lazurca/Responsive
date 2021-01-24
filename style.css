@@ -2,18 +2,35 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: blue;
-}
-
+/* small */
 @media only screen and (max-width: 300px) {
   body {
     background-color: red;
   }
+  #medium,
+  #large {
+    display: none;
+  }
 }
 
+/* medium */
 @media only screen and (min-width: 301px) and (max-width: 768px) {
   body {
     background-color: green;
+  }
+  #small,
+  #large {
+    display: none;
+  }
+}
+
+/* large */
+@media only screen and (min-width: 769px) {
+  body {
+    background-color: blue;
+  }
+  #small,
+  #medium {
+    display: none;
   }
 }
