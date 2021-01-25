@@ -7,7 +7,7 @@
   body {
     background-color: red;
   }
-  
+
   /* exercise 3
   #medium,
   #large {
@@ -23,8 +23,22 @@
 @media only screen and (min-width: 301px) and (max-width: 768px) {
   body {
     background-color: green;
-    
   }
+
+  #small {
+    width: 66.66%;
+    float: left;
+  }
+
+  #medium {
+    width: 33.33%;
+    float: left;
+  }
+
+  #large {
+    width: 100%;
+  }
+
   /* exercise 3
    #small,
   #large {
@@ -43,11 +57,21 @@
     font-size: 30px;
   }
 
-  #small,
-  #large,
-  #medium {
+  #small {
+    width: 33.33%;
     float: left;
   }
+
+  #medium {
+    width: 33.33%;
+    float: left;
+  }
+
+  #large {
+    width: 33.33%;
+    float: left;
+  }
+
   /* exercise 3
   #small,
   #medium {
@@ -58,5 +82,3 @@
 #large {
   font-size: 30px;
 }
-
-
